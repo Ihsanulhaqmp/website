@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+/* .nav .logo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+} */
+.nav {
+    background-color: #28a745;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.nav .menu {
+    list-style:none;
+    display:flex ;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav .menu li{
+    margin-left: 20px;
+}
+
+.nav .menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.butt{
+    /* text-align: center; */
+    background-color: #fff;
+    
+    padding: 100px 20px;
+    text-align: center;
+}
+.butt .bt{
+    background-color: #3328a7;
+    color: #fff;
+}
+
+.about{
+    background-color: #28a745;
+    text-align: center;
+    color: white;
+    padding: 20px ;
+}
+
+.members{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.members .team-members{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.members .team-member {
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.members .team-members #id1{
+    background-color: pink;
+}
+
+.members .team-members #id2{
+    background-color:lawngreen;
+}
+
+.members .team-members #id3{
+    background-color: rgb(197, 183, 30);
+}
+
+.members .team-members #id4{
+    background-color: rgb(86, 148, 193);
+}
